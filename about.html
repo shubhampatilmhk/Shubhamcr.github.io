@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        html{
+            background-color: rgb(247, 238, 224);
+        }
+
+        body{
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        ul li{
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        /* ############### utility classes ################  */
+
+        .container{
+            max-width: 1600px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+
+
+         /* ################## Header ##################### */
+
+         .header{
+            background: url(./img/bg1.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 70vh;
+            background-repeat: no-repeat;
+
+        }
+
+        .header a{
+            color: rgb(124, 238, 241);
+            font-weight: 400;
+            text-decoration: none;
+        }
+
+        .navbar{
+            overflow: hidden;
+            padding: 5px;
+       
+        }
+
+        .navbar .lgo{
+            float: left;
+        }
+        
+        .navbar .lgo:hover{
+            box-shadow: 0px 0px 12px 10px rgb(124, 238, 241);
+        }
+
+        .navbar .nav-items{
+            float: right;
+            margin-right: 20px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+        }
+
+        .header .navbar .nav-item{
+            margin-right: 20px;
+
+            display: inline-block;
+        }
+
+        .navbar .nav-item a{
+            border: 2px solid rgb(124, 238, 241);
+            padding: 5px 10px;
+        }
+
+        .navbar .nav-item a:hover{
+            color: rgb(21, 83, 107);
+            background-color: rgb(124, 238, 241);
+            box-shadow: 0px 0px 8px 2px rgb(124, 238, 241);
+        }
+
+        /* ##################### content #############  */
+
+        .story{
+            margin: 50px 0;
+            padding: 20px;
+            box-shadow: 0px 0px 12px 4px rgb(252, 131, 141);
+        }
+        
+        .story h2{
+            color: crimson;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* ######## info #######  */
+
+        .info{
+            background-color: rgb(53, 53, 53);
+            overflow: hidden;
+            padding: 20px;
+            margin: 0 auto;
+        }
+
+        .info .mtion{
+            margin-left: 25%;
+            display: flex;
+            align-items: center;
+            color: rgb(219, 219, 219);
+        }
+
+        .inf img{
+            margin: 0 10px;
+            width: 20px;
+        }
+
+        .info .inf2{
+            padding: 0 40px;
+        }
+
+        .inf h2{
+            margin-bottom: 10px;
+        }
+        .inf2 img{
+            width: 40px;
+        }
+
+        /* ################### media Queries #################  */
+
+        @media (max-width:500px){
+
+            html{
+            font-size: 13px;
+        }
+
+        .navbar .lgo, .navbar .nav-items{
+            text-align: center;
+            display: block;
+            float: none;
+            margin: 0 auto;
+        }
+
+        .navbar .nav-items{
+            margin: 20px 0;
+        }
+
+        .header .hedcont{
+            
+            width: 100%;
+            margin-left: 0px;
+            color: rgb(124, 238, 241);
+            text-shadow: 2px 2px 8px black;
+        }
+
+        .header .hedcont h1{
+            font-size: 30px;
+        }
+
+     }
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="lgo">
+                    <img width="180px" src="./img/algo2.png" alt="">
+                </div>
+            <div class="ulitem">
+                <ul class="nav-items">
+                    <li class="nav-item"><a href="./index.html">Home</a></li>
+                    <li class="nav-item"><a href="./about.html">About</a></li>
+                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            </nav>
+            
+        </div>
+        </header>  
+
+    <div class="container">
+    <div class="story">
+        <h2>Our Story</h2>
+        <p>It’s been more than 11 years since Arena Animation FC Road started being the source of knowledge. Our Arena Animation has grown tremendously in short period of time. A great combination of infrastructure, interior, expertise faculty, supportive director, we are able to achieve the top 1st position in market considering the West zone and Pune city. Arena Animation is recognized on 1st position by PAN India Corporate Service(PAN). We ensure to deliver quality and productivity to students. Highly skilled faculty with Industrial experience help students to know about the market requirements and develop required skills in students which help them in their career growth and make them better in all aspects. Every year event known as Creative Mind which is national level event is held in Mumbai where Arena FC road received maximum of 5 top awards in various categories. Student engagement activities along with different festivals are celebrated in center. Also, every year students get chance to meet and interact with foreign International experts in Animation. Saying about the placements here in Arena animation 90% of students got placed in top companies like Anibrain, Deluxe, Bubble Creation, Prime Focus etc. Our aim to achieve the top 1st position in India. We are also working on the Inhouse studio setup in order to give more placements to our own students and develop their skills making them work on live projects from the industry.</p>
+    </div>
+    <div class="story">
+        <h2>Why Arena Animation FC Road Pune</h2>
+        <p>With a greater level of personal interaction and guidance from industry mentors, our students can progress faster and graduate with the job skills and confidence to pursue their dream career. Arena also conducts various competitive events like Creative Minds to develop the skills of the students. Students get an opportunity to showcase their skills & to interact with experienced professionals. As a result, they win prizes & awards in national & international competitions. This also helps our students to build a creative portfolio and demo reel at the end of their study course. In a nutshell, Arena creates skilled professionals through a variety of courses delivered using the latest teaching methodology. The Academy is a platform to enter the fun-filled, exciting world of Gaming, Visual effects and Web Designing, both in India & over.</p>
+    </div>
+    </div>
+
+
+    <div class="info">
+        <div class="mtion">
+            <div class="inf">
+                <h2>Student helpline</h2>
+                <p><img src="./Social Media Icons/d2.png" alt="">08048030354</p>
+                <p><img src="./Social Media Icons/d3.png" alt=""> arenafcroad@gmail.com</p>
+    
+                <p><img src="./Social Media Icons/d4.png" alt=""> http://www.arenaanimationpune.com/</p>
+            </div>
+            <div class="inf2" style="margin-left: 50px;">
+                <h2>Share Us On</h2>
+                <img src="./Social Media Icons/Insta.png" alt="">
+                <img src="./Social Media Icons/d5.png" alt="">
+                <img src="./Social Media Icons/d6.png" alt="">
+            </div>
+        </div>
+        </div>
+</body>
+</html>
